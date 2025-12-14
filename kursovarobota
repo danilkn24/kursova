@@ -319,7 +319,6 @@ namespace DekanatApp
 
             var max = groupAverages.OrderByDescending(x => x.Avg).First();
             Console.WriteLine($"Група з максимальним середнім балом по предмету '{subj}': {max.Group} (середній {max.Avg:F2})");
-            Console.WriteLine("Примітка: у наперед заданих даних група КН має вищий середній там, де ви цього хотіли.");
         }
 
         // 7. Список факультетів студентів, які підлягають відрахуванню (Не здано більше двох предметів).
